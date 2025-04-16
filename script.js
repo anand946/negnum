@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let yesButtonSize = 1;
 
     yesButton.addEventListener('click', () => {
-        responseMessage.textContent = "<3";
+        responseMessage.textContent = "🫶";
         yesButton.style.transform = 'scale(1)'; // Ensure size is normal when clicking "Yes"
     });
 
